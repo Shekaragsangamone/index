@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My first webpage form</title>
+</head>
+<body>
+	<h1>Registration form </h1>
+	<fieldset> 
+		<legend>Persoanl Details:</legend>
+		<div id="reg-form"> 
+			<form> 
+
+				<label for="Firstname">Firstname:</label> 
+				<input type="text" name="Firstname" placeholder="Rohit" required>
+				<br>
+
+				<label for="Lastname">Lastname:</label> 
+				<input type="text" name="Lastname" placeholder="Sharma" required>	
+				<br>
+				<div> 
+					<p>Gender:</p>
+					<label for="gender-male">Male:</label>
+					<input type="radio" name="gender choice"value="choice1">
+
+					<label for="gender-Female">Female:</label>
+					<input type="radio" name="gender choice"value="choice2">
+
+					<label for="gender-others">Others:</label>
+					<input type="radio" name="gender choice"value="choice3">
+
+				</div>
+
+				<div>
+					<p> 
+					<label for="Email">Email:</label> 
+					<input type="Email" name="Email" placeholder="xyz@gmail.com">
+					<br>
+
+					<label for="Password">Password:</label> 
+					<input type="Password" name="Password" placeholder="********">
+					</p>
+
+				</div>
+				<div>
+					<P>  
+					<label for="Month">Birthday:</label> 
+					<select name="Month">
+						<option value="0" selected disabled>Month</option>
+						<option value="January">January</option>
+						<option value="February">February</option>
+						<option value="March">March</option>
+						<option value="April">April</option>
+						<option value="May">May</option>
+						<option value="June">June</option>
+						<option value="July">July</option>
+						<option value="August">August</option>
+						<option value="September">September</option>
+						<option value="Octomber">Octomber</option>
+						<option value="November">November</option>
+						<option value="December">December</option>
+
+					</select>
+					</P>
+				</div>
+
+				<div>
+					<label for="checkbox">I agree to all the terms and conditions</label>
+					<input type="checkbox" name="agree">
+				</div>
+				<p> 
+				<button type="Submit">Submit</button>
+				</p>
+			</form>
+		</div>
+	</fieldset>
+</body>
+</html>
